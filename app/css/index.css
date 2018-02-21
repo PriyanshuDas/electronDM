@@ -1,0 +1,59 @@
+.title {
+    color: gold;
+    text-shadow: 2px 2px #770000;
+    font-family: "Comic Sans MS", Times, sans-serif;
+    font-size: 25px;
+    /*position: absolute;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*-webkit-app-region: drag;*/
+}
+
+body {
+    background: seashell;
+    height: 725px;
+    overflow: hidden;
+    width: 400px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+
+}
+
+.download-item {
+    height: 60px;
+    width: 350px;
+    align-content: center;
+    /*position: absolute;*/
+    box-sizing: border-box;
+    margin: 10px;
+    border-style: solid;
+    border-color: gold;
+    border-width: 1px;
+    box-shadow: 2px 2px #888888;
+}
+.download-item .download-item__image {
+    height: 50px;
+    width: auto;
+    box-sizing: border-box;
+    padding-right: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+    background-color: transparent;
+}
+
+.download-item .download-item__title {
+    padding: 5px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+
+.download-item .download-item__url {
+    padding: 5px;
+    position: relative;
+    top: -45px;
+    left: 50px;
+    /*left: -32px;*/
+}
