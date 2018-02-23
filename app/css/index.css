@@ -91,6 +91,39 @@ body {
     /*width: 20px;*/
 }
 
+.download-item .download-item__folder {
+    padding: 5px;
+    position: relative;
+    top: -133px;
+    right: -245px;
+    /*background-image: url('/app/img/download.png');*/
+    /*background-repeat: no-repeat;*/
+    background-color: transparent;
+    width: 40px;
+    height: 45px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+}
+
+.download-item .download-item__folder .button__skin {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: -5%;
+    z-index: 1;
+    length: 45px;
+    width: 40px;
+    /*length: 20px;*/
+    /*width: 20px;*/
+}
+
 .download-item .download-item__downloadBar {
     width: 350px;
     height: 5px;
